@@ -19,7 +19,7 @@ function sus.sus()
 end
 
 function sus.setup()
-	vim.cmd [[au BufEnter,BufReadPost * lua require"custom.noice_sus".sus()]]
+	vim.cmd [[au BufEnter,BufReadPost * lua require"sus".sus()]]
 end
 
 return sus
