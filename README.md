@@ -1,5 +1,5 @@
 
-# sus.nvim
+# sus.nvim (still sort of a WIP)
 
 ## Installation
 ### packer.nvim
