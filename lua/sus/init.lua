@@ -1,7 +1,10 @@
 local sus = {}
 
+local sus_icon = vim.g.sus_icon or " ඞ"
+local sus_text = vim.g.sus_text or "sus"
+
 local function la_place(line)
-	vim.fn.sign_define('sus', {text=' ඞ', texthl="Sus"})
+	vim.fn.sign_define('sus', {text=sus_icon, texthl="Sus"})
 	vim.fn.sign_place(line, '', 'sus', vim.fn.expand('%:p'),{lnum=line+1})
 end
 
@@ -12,7 +15,7 @@ function sus.sus()
 	vim.cmd [[ hi Sus guifg=#eb6c76 gui=bold ]] -- gui=underline
 
 	for l, line in ipairs(lines) do
-		if line:match("nice") or line:match("sus") or line:match("noice") then
+		if line:match(sus_text) then
 			la_place(l)
 		end
 	end
