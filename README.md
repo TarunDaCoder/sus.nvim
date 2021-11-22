@@ -5,13 +5,19 @@
 ### packer.nvim
 ```lua
 -- Add this to your init.lua
-use 'TarunDaCoder/sus.nvim'
+use {'TarunDaCoder/sus.nvim',
+    config = function()
+        require('sus').setup()
+    end
+}
 ```
 
 ### vim-plug
 ```vim
 " Add this to your init.vim
 Plug 'TarunDaCoder/sus.nvim'
+
+lua require('sus').setup()
 ```
 
 ## Config options
