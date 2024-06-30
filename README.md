@@ -1,7 +1,23 @@
 
 # sus.nvim
 
+## About
+sus.nvim is a simple plugin that shows a sus icon in your signcolumn. when it finds the work 'sus' written in that line.
+
 ## Installation
+
+### Lazy
+```lua
+-- Add this to your init.lua
+{
+    'TarunDaCoder/sus.nvim',
+    config = function()
+        require('sus').setup()
+    end
+}
+
+```
+
 ### packer.nvim
 ```lua
 -- Add this to your init.lua
