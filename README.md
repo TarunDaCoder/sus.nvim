@@ -40,7 +40,7 @@ use {'TarunDaCoder/sus.nvim',
 }
 ```
 
-### vim-plug
+### Using [vim-plug](https://github.com/junegunn/vim-plug)
 ```vim
 " Add this to your init.vim
 Plug 'TarunDaCoder/sus.nvim'
