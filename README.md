@@ -6,6 +6,15 @@ sus.nvim is a simple plugin that shows a sus icon in your signcolumn. when it fi
 
 ## Installation
 
+### Rocks.nvim
+`:Rocks install sus.nvim`
+
+```lua
+-- Add this to your init.lua
+require('sus').setup()
+```
+
+
 ### Lazy
 ```lua
 -- Add this to your init.lua
