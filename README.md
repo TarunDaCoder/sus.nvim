@@ -7,7 +7,6 @@ sus.nvim is a simple plugin that shows a sus icon in your signcolumn. when it fi
 ### Screenshot
 ![Screenshot](img/sus_screenshot.png)
 
-
 ## Installation
 
 ### Using [rocks.nvim](https://github.com/nvim-neorocks/rocks.nvim)
