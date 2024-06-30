@@ -4,7 +4,7 @@
 ## About
 sus.nvim is a simple plugin that shows a sus icon in your signcolumn. when it finds the work 'sus' written in that line.
 
-### Screenshot
+## Screenshot
 ![Screenshot](img/sus_screenshot.png)
 
 ## Installation
