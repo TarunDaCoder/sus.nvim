@@ -4,12 +4,14 @@
 
 `sus.nvim` is a simple plugin that shows a sus icon in your signcolumn. When it finds the word 'sus' written in that line.
 
+## Screenshot
+![Screenshot](img/sus_screenshot.png)
+
 ## Installation
 
 ### Lazy
 
 ```lua
--- Add this to your init.lua
 {
     'TarunDaCoder/sus.nvim',
     opts = {}
@@ -48,8 +50,6 @@ lua require('sus').setup()
 lua << EOF
 
 vim.g.sus_icon = "🦆" -- For all you duck lovers out there
-
-EOF
 ```
 
 #### You can change the text to whatever text you like by changing the `sus_text` variable
@@ -58,8 +58,6 @@ EOF
 lua << EOF
 
 vim.g.sus_text = "duck"
-
-EOF
 ```
 
 ## Credits
