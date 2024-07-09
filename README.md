@@ -9,6 +9,9 @@
 
 ## Installation
 
+### Rocks.nvim
+`:Rocks install sus.nvim`
+
 ### Lazy
 
 ```lua
