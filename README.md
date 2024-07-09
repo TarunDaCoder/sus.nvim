@@ -9,10 +9,10 @@
 
 ## Installation
 
-### Rocks.nvim
+### [rocks.nvim](https://github.com/nvim-neorocks/rocks.nvim)
 `:Rocks install sus.nvim`
 
-### Lazy
+### [Lazy.nvim](https://github.com/folke/lazy.nvim)
 
 ```lua
 {
@@ -22,7 +22,7 @@
 
 ```
 
-### packer.nvim
+### [packer.nvim](https://github.com/wbthomason/packer.nvim)
 
 ```lua
 -- Add this to your init.lua
@@ -34,7 +34,7 @@ use {
 }
 ```
 
-### vim-plug
+### [vim-plug](https://github.com/junegunn/vim-plug)
 
 ```vim
 " Add this to your init.vim
@@ -49,20 +49,16 @@ lua require('sus').setup()
 
 ### You can change the icon to whatever icon you like by changing the `sus_icon` variable
 
-```vim
-lua << EOF
-
+```lua
 vim.g.sus_icon = "🦆" -- For all you duck lovers out there
 ```
 
 #### You can change the text to whatever text you like by changing the `sus_text` variable
 
-```vim
-lua << EOF
-
+```lua
 vim.g.sus_text = "duck"
 ```
 
 ## Credits
 
-- code from @tamton-aquib (GitHub: https://github.com/tamton-aquib)
+- code from [@tamton-aquib](https://github.com/tamton-aquib)
