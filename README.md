@@ -45,7 +45,8 @@ lua require('sus').setup()
 
 ## Config options
 
-> NOTE: The sus icon and text are the default settings, change it if u want to
+> [!NOTE]: 
+> The sus icon and text are the default settings, change it if u want to
 
 ### You can change the icon to whatever icon you like by changing the `sus_icon` variable
 
